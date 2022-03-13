@@ -1,0 +1,97 @@
+.container {
+    position: relative;
+    width: 67%;
+  }
+.page-content{
+    width: 100%;
+}
+
+.graph__1 {
+    height: 60vh;
+    width: 100%;
+}
+
+ .container .orion_img {
+    width: 100%;
+    height: auto;
+    padding-left:10%;
+  }
+
+.legend_img {
+    width: 40%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container Button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgb(82, 139, 44);
+    color: white;
+    font-size: 12px;
+    padding: 6px 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container .button-return-temperature-primary{
+    top: 83%;
+    left: 57%;
+  }
+  .container .button-supply-temperature-primary{
+    top: 83%;
+    left: 73%;
+  }
+  .container .button-return-temperature{
+    top: 41%;
+    left: 57%;
+  }
+  .container .button-supply-temperature{
+    top: 41%;
+    left: 73%;
+  }
+  .container .button-air-inlet-temperature{
+    top: 77%;
+    left: 42%;
+  }
+  .container .button-air-outlet-temperature{
+    top: 25%;
+    left: 71%;
+  }
+  .container .button-air-inlet-humidity{
+    top: 71%;
+    left: 42%;
+  }
+  .container .button-air-outlet-humidity{
+    top: 25%;
+    left: 80%;
+  }
+  .container .button-air-outlet-voc{
+    top: 25%;
+    left: 89%;
+  }
+  .container .fan1{
+
+    top: 48%;
+    left: 9%;
+    background-color:#3399ff;
+  }
+  .container .button-three-way-valve{
+    top: 73%;
+    left: 80%;
+  }
+  .container .valve2{
+    top: 66%;
+    left: 73%;
+    background-color:#3399ff;
+  }
+  .container Button:hover {
+    background-color: black;
+  }
+ .gauge_fan {
+    position: relative;
+    align-items: center;
+    /* /* top:25%; */
+    left:25%; 
+  }

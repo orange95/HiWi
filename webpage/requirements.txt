@@ -1,0 +1,9 @@
+dash
+pydantic
+requests
+dash-bootstrap-components
+dash-core-components
+dash-html-components
+dash_daq
+numpy
+python-dotenv

@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  iotweb:
+    image: docker_iotweb:0.1
+    container_name: iotweb
+    hostname: iotweb
+    ports:
+       - 8050:8050
+    network_mode: "host"
+   
